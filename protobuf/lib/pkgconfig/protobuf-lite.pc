@@ -1,0 +1,11 @@
+prefix=C:/Users/User/Downloads/protobuf-cpp-3.21.1/vs_x64_out
+exec_prefix=C:/Users/User/Downloads/protobuf-cpp-3.21.1/vs_x64_out
+libdir=C:/Users/User/Downloads/protobuf-cpp-3.21.1/vs_x64_out/lib
+includedir=C:/Users/User/Downloads/protobuf-cpp-3.21.1/vs_x64_out/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.21.1.0
+Libs: -L${libdir} -lprotobuf-lite 
+Cflags: -I${includedir}
+Conflicts: protobuf
